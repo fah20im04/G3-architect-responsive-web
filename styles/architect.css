@@ -97,13 +97,17 @@ main{
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 25px;
+  gap: 55px;
 }
 .teams-img-container{
   
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 24px;
+}
+.banner-discription{
+  font-size: 1rem;
+  color:#727272
 }
 .our-features{
   

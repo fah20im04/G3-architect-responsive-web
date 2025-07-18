@@ -7,7 +7,7 @@
   font-style: normal;
 }
 body{
-  max-width: 1920px;
+  max-width: 100%;
 }
 .navbar{
   justify-content: space-around;
@@ -175,6 +175,48 @@ main{
   margin: 0 auto;
   border-radius: 10px;
 }
+.featuress{
+  display: flex;
+  height: 62.5rem;
+  width: 43.75rem;
+  
+}
+.fea-img{
+  max-width: 800px;
+  max-height: 859px;
+}
+.fea-img img{
+  height: 98%;
+  margin-left: 100px;
+}
+.features-driscription{
+  height: 10.68rem;
+  width:20.625rem;
+  box-shadow:0px 5px 8px  #8b8b8b;
+  /* border-radius: 5px; */
+  padding: 10px;
+  margin-top: 20px;
+  margin-right: 20px;
+}
+.btn-primary{
+  width: 15.125rem;
+  height: 6.25rem;
+  /* justify-content: center;
+  text-align: center; */
+  background-color: #FF900E;
+  border-radius: 10px;
+  color: #FFFFFF;
+  margin-top: -70px;
+  border: none; 
+}
+.btn-primary h4{
+  margin-top: 7px;
+  font-size: 35px;
+  font-weight: 700;
+}
+.btn-primary p{
+  margin-top: -30px;
+}
 @media screen  and (max-width:576px){
     .teams{
       flex-direction: column;
@@ -206,6 +248,16 @@ main{
   justify-content: center;
   text-align: center;
 }
+.featuress{
+  display: flex;
+  justify-content: center;
+
+  flex-direction: column;
+  height: 62.5rem;
+  width: 43.75rem;
+  margin-left: 20px;
+  
+}
 }
 /* respopbsibe media wuery */
 @media screen and (max-width:576px){
@@ -225,6 +277,27 @@ main{
   display: grid;
   grid-template-areas: repeat(2,1fr);
   
+}
+.some-facts{
+  margin-top: 400px;
+}
+.btn-primary{
+  width: 15.125rem;
+  height: 6.25rem;
+  background-color: #FF900E;
+  border-radius: 10px;
+  color: #FFFFFF;
+  margin-top: 70px;
+  border: none; 
+  margin-left: 160px;
+}
+.fea-img{
+  display: flex;
+  flex-direction: column;
+  max-width: 450px;
+  max-height: 559px;
+  margin-left: -100px;
+  margin-top: 20px;
 }
 .ftr{
 

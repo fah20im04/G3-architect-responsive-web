@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+.work-sans-font {
+  font-family: "Work Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+body{
+  max-width: 1920px;
+}
+.navbar{
+  justify-content: space-around;
+  align-items: center;
+}
+.inline{
+  display: inline;
+}
+.brand{
+  font-size: 2.8rem;
+}
+.display-flex{
+  display: flex;
+}
+ul{
+  list-style: none;
+
+}
+.bg-main-color{
+  background-color: rgba(255, 144, 14, 0.1);
+}
+.bg-txt{
+  color: #424242;
+  font-size: 18px;
+  /* margin-top: 50px; */
+}
+
+li a{
+  text-decoration: none;
+  margin: 20px;
+}
+.navbar, .banner{
+  max-width: 1440px;
+  margin: 0 auto;
+  align-items: center;
+}
+/* banner related styles */
+.banner{
+  /* margin-left: 10rem ;  */
+  max-width: 60rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+}
+.banner-content{
+  max-width: 861px;
+  margin: 0 auto;
+  text-align: center;
+}
+.banner-img{
+  width: 100%;
+  margin: 0 auto ;
+  /* justify-content: center; */
+  /* align-items: center; */
+}
+
+.banner-title{
+  font-weight: bold;
+  font-size: 4rem;
+}
+.banner-discription{
+  font-size: 1rem;
+  color: #727272;
+}
+.pri-buttoon{
+  background-color: #FF900E;
+  color: #FFFFFF;
+  border-radius: 8px;
+  border: none;
+  font-size: 1.4rem;
+  font-weight: 600;
+  width: 11.2rem;
+  height: 4rem;
+  margin-bottom: 50px;
+}
+.margin{
+  /* margin: 0 110px; */
+  margin-top: 130px;
+}
+/* teams image and features */
+main{
+  max-width: 1000px;
+  margin: 0 auto;
+}
+.teams{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+}
+.teams-img-container{
+  
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+}
+.our-features{
+  
+}
+@media screen  and (max-width:576px){
+    .teams{
+      flex-direction: column;
+    }
+    .our-features{
+      text-align: center;
+    }
+    .teams-img-container{
+  
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 24px;
+}
+}
+/* respopbsibe media wuery */
+@media screen and (max-width:576px){
+  .navbar, .navlinks{
+    flex-direction: column;
+  }
+}
